@@ -1,0 +1,243 @@
+:root {
+  --white-color: #ffffff;
+  --navy-blue: #2e2f42;
+  --button-blue: #4d5ae5;
+  --button-background: #f4f4fd;
+  --button-hov-foc: #404bbf;
+  --text-color: #434455;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: var(--text-color);
+  background-color: var(--white-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+/* header */
+
+.header-nav {
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--button-blue);
+}
+
+.header-logo span {
+  color: var(--navy-blue);
+}
+
+.header-menu-item {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.header-menu-link {
+  text-decoration: none;
+  color: var(--navy-blue);
+}
+
+.header-menu-link:focus,
+.header-menu-link:hover {
+  text-decoration: underline;
+  color: var(--button-hov-foc);
+}
+
+.header-social-list {
+  list-style: none;
+}
+
+.header-social-item {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-social-link {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.header-social-link:focus,
+.header-social-link:hover {
+  color: var(--button-hov-foc);
+}
+
+.header-social {
+  font-style: normal;
+}
+/* main */
+.hero {
+  background-color: var(--navy-blue);
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--white-color);
+}
+
+.hero-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: var(--button-blue);
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.hero-button:focus,
+.hero-button:hover {
+  background: var(--button-hov-foc);
+  color: var(--white-color);
+}
+
+.solution-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.solution-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+}
+
+.job-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+  text-align: center;
+}
+
+.job-list {
+  list-style: none;
+}
+
+.team {
+  background: #f4f4fd;
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+  text-align: center;
+}
+
+.team-item {
+  background-color: var(--white-color);
+}
+
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.team-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* portfolio */
+
+.portfolio {
+}
+
+.potrfolio-filter {
+  list-style: none;
+}
+
+.portfolio-button {
+  color: var(--button-blue);
+  background: var(--button-background);
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--button-blue);
+  cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background: var(--button-hov-foc);
+  color: var(--white-color);
+}
+
+.portfolio-list {
+  list-style: none;
+}
+.portfolio-item {
+}
+
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.portfolio-item-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/* footer */
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--button-blue);
+}
+
+.footer-logo span {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.footer-down {
+  background-color: var(--navy-blue);
+}
