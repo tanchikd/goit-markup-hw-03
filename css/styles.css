@@ -368,13 +368,13 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+  margin-bottom: 8px;
 }
 
 .portfolio-item-descriptin {
   padding: 32px 16px;
   border: 1px solid var(--button-border);
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .portfolio-item-text {
